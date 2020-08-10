@@ -11,7 +11,7 @@ export = class Test {
 
         const endTime = new Date();
         const someChange = true;
-        this.console.info(`Run completion time: ${endTime}. Duration: ${(endTime.getTime() - runStartTime.getTime()) / 1000} seconds`);
+        this.console.info(`Run completion time: ${endTime}. Duration: ${(endTime.getTime() - runStartTime.getTime()) / 1000} seconds. Changed after comment!`);
     }
 
     async init() {
